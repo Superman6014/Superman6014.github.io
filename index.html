@@ -13,6 +13,7 @@
   <script src="https://cdn.jsdelivr.net/processing.js/1.4.8/processing.min.js"></script> 
  
  <script>
+	 draw = function(){
     var newG = function(processingInstance) {
      with (processingInstance) {
         size(400, 400); 
@@ -386,6 +387,7 @@ if(fb===true){
 
        var canvas = document.getElementById("mycanvas"); 
        var processingInstance = new Processing(canvas, newG); 
+	 };
  </script>
 
 </html>
